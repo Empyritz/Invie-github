@@ -12,16 +12,19 @@
         img{
             max-width: 100%;
             vertical-align: top;
+            }
+        img#responsive {
+                    display: none;
+                }
+        @media screen and (max-width:768px) {
+            img#responsive {
+                display: block;
+            }
         }
     </style>
 </head>
 <body>
-    <img src="options.jpg" alt="">
-    <img src="invie.jpg" alt="">
-    <img src="classic.jpg" alt="">
-    <img src="acustic.jpg" alt="">
-    <img src="contac.jpg" alt="">
-    
+    <img src="invie-responsive.png" alt="" id="responsive">  
 </body>
 </html>
 
