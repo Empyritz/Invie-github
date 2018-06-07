@@ -1,0 +1,1 @@
+##¿Como arreglo eso? 
